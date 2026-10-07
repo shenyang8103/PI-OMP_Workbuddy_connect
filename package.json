@@ -1,0 +1,26 @@
+{
+  "name": "pi-workbuddy-connect",
+  "version": "0.1.0",
+  "description": "把 WorkBuddy 桌面 App 包含的模型接入 Pi —— 复用桌面端登录态，零配置即可在 /model 里选用",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-extension",
+    "pi-coding-agent",
+    "workbuddy",
+    "model-provider"
+  ],
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "omp": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
